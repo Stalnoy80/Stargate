@@ -21,7 +21,7 @@ const App = () => {
   useEffect(() => {
     fetchData()
   }, [])
-
+  console.log('hello')
   return (
     <NavigationContainer>
       <FlatList
